@@ -1,0 +1,207 @@
+body { background-color: #ebebeb; 
+	font-family:Verdana, Arial, sans-serif;
+      
+}
+
+header {
+	background-image:url(img/header.png);
+	font-size: 150%; 
+	padding: 5px 5px 5px 20px;
+	display: flex;
+ 	justify-content: space-between;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+footer {background-image:url(img/header.png);
+	font-size:70%;
+	 text-align: center;
+	 clear: right;
+	 padding-bottom:20px;
+	 padding-top:20px;
+	 box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}	
+  
+.search-bar {
+	flex-grow: 1;
+	display: flex;
+	margin: 0 20px;
+}
+
+.search-bar input {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+	flex: 1; 
+ 
+}
+
+.search-bar button {
+	padding: 10px 20px;
+	background-color: #7a7a7a;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+
+.right-section {
+	float:right;
+	display: flex;
+	width:20%;
+}
+
+
+  
+#wrapper { background-color: #ffffff; 
+	width: 80%;
+	margin: auto;
+	min-width:850px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); 
+} 
+
+
+.secondrow {  
+	width:100%;
+	background-color: #ffffff;
+	height:900px;
+	padding:0px;
+	margin-top: 5px;
+	display: inline-block; /* Make the div only as wide as the image */
+	
+	
+} 
+
+.container {
+    text-align: center;
+    width:40%;
+	height:auto;
+    padding: 5%;
+	padding-top: 10%;
+    border-radius: 5px;
+
+	display: inline-block; /* Make the div only as wide as the image */
+}
+
+.container h2 {
+    font-size: 24px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container label {
+    font-weight: bold;
+}
+
+.container input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*jade added*/
+nav{text-align: center;
+    width:100%;
+	height:50px;
+    padding: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+    border-radius: 5px;}
+
+.nav {
+    display: inline-block; /* Display the elements horizontally */
+    width: 8%; /* Adjust the width to control the spacing between the links */
+    height: 80%; /* Maintain the height you want */
+	text-align: center; /* Center the text within the divs */}
+
+.nav a {text-decoration: none;
+		font-weight: bold;
+		color: #ba8b71;
+		display: block; /* Make the links take up the entire width of the parent div */
+		padding: 10px; /* Optional: Add some padding for better spacing */
+}
+.nav a:hover{
+	color: #573f29;
+}
+a {text-decoration: none;
+	font-weight: bold;
+	color: #ba8b71;
+	/*display: block; /* Make the links take up the entire width of the parent div */
+	padding: 10px; /* Optional: Add some padding for better spacing */
+}/*jade added*/
+
+
+h1 { color: #b84f25; 
+	 margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+     font-family: Verdana, sans-serif;
+}
+
+.image-container {
+	display: inline-block; /* Make the div only as wide as the image */
+	max-width: 100%; /* Make the div as wide as the image or its parent container */
+	height: auto; /* Allow the div to adjust its height based on the image */
+	border: 1px solid #000; /* Add a border for visual separation */
+	margin: 30px;
+  }
+  
+.image-container img {
+	max-width: 100%; /* Make the image fit the width of the container */
+	height: auto; /* Maintain the image's aspect ratio */
+  }
+  
+
+#floatleft { 
+			
+             float: left;
+
+}
+
+
+#note{
+	list-style-image:url(coffee.png);
+	
+}
+#leftnav { list-style-type: none;
+	
+}
+#month{
+	color: #573f19; 
+     font-size:115%;
+	 font-weight: 780;
+	 padding:1px;
+	 font-family: Verdana, sans-serif;
+}
+
+
+
+
+
+
+#leftcolumn { 	padding: 5px 5px 5px 20px;
+	background-color: #ebebeb; 
+	  height: auto;
+
+} 
+
+#rightcolumn {   width:100%;
+	   background-color: #d3d3d3;
+	   padding-bottom:20px;
+	   display: inline-block; /* Make the div only as wide as the image */
+	   
+} 

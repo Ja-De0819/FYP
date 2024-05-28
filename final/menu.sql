@@ -1,0 +1,6 @@
+CREATE TABLE menu (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    dish VARCHAR(255) NOT NULL,
+    restaurant VARCHAR(255) NOT NULL,
+    price FLOAT NOT NULL
+);

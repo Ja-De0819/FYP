@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+<title>JavaJam Coffee House</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="page.css">
+</head>
+<style>
+	.container input {
+		text-align: center;
+	border: none;
+	appearance: none;
+	outline: none;
+	width:60%;
+	margin-left: 20%;
+	align-items: center;
+	background: none;
+	border-bottom: 1px solid #000; /* Add a bottom border for the line appearance */
+	padding: 5px; /* Add padding to adjust the height of the input field */
+}
+</style>
+<body> 
+<div id="wrapper">
+
+
+	<header>
+		<a href="index.php">
+			<img src="img/logo.png" width="60" height="62" alt="Logo">
+		</a>
+		<div class="right-section">
+			<div class="search-bar">
+				<input type="text" placeholder="Search">
+				<button>Search</button>
+			</div>
+			<img src="img/user.png" width="60" height="62" alt="User">
+		</div>
+	</header>
+
+
+
+	<div class="secondrow">
+
+		<div class="image">
+			<img src="img/login.gif" width="50%" height="100%" id="floatleft" alt="Tree">
+		</div>
+		<div class="container">
+			<h1>Login</h1>
+			<br><br><br><form method="post" action="login.php" >
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username"  required>
+				<br><br><label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+				<br><br><br><input type="submit" style="margin-left: 35%; width:30%; border: 1px dashed #000" value="Log in">
+			</form>
+			<div>
+				<a href="register.html">Do not have an account?</a>
+				<br><br><br><br><br>
+				<a href="menu.html">Menu</a>
+			</div>
+		</div>
+
+	</div>
+		
+
+
+	<footer>
+		<small><i>Copyright &copy;  2023 NTU Can</i></small> <br>
+		<a href="mailto:Jadelu@Bohou.com">
+			<em style="color:#573f29;"><u>Jadelu@Bohou.com</u></em></a>		
+
+	</footer> 
+
+	
+</div>	
+</body>
+
+</html>

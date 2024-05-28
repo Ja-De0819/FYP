@@ -1,0 +1,38 @@
+<title>JavaJam Coffee House</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="page.css">
+<link rel="stylesheet" href="menu.css">
+</head>
+<body> 
+<div id="wrapper">
+
+
+	<header>
+		<img src="img/logo.png" width="60" height="62" alt="Logo">
+
+		<div class="right-section">
+			<div class="search-bar">
+				<input type="text" placeholder="Search">
+				<button>Search</button>
+			</div>
+			<img src="img/user.png" width="60" height="62" alt="User">
+		</div>
+	</header>
+			<nav>
+				<div class = "nav"><a href="index.php">Home</a></div>
+				<div class = "nav"><a href="menu.html">Menu</a></div>
+				<div class = "nav"><a href="status_onprocess.html">Order</a></div>
+				<div class = "nav"><a href="admin_update.html">Admin</a></div>
+			</nav>
+	<div class="secondrow">
+	<h1>Admin: Update Order Status</h1>
+		<button onclick="updateOrderStatus('Preparing order')">Preparing order</button>
+		<button onclick="updateOrderStatus('Ready to collect')">Ready to collect</button>
+		<button onclick="updateOrderStatus('On the way')">On the way</button>
+		<button onclick="updateOrderStatus('Delivered Order')">Delivered Order</button>
+
+    <script src="admin_update.js"></script>
+</div>	
+</body>
+</html>
+</div>
